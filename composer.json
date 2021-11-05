@@ -18,11 +18,11 @@
     "minimum-stability": "alpha",
     "require": {
         "php": ">=7.4",
-        "ext-mbstring": "*"
-        "ext-iconv": "*"
-        "ext-pdo": "*"
-        "ext-json": "*"
-        "ext-curl": "*"
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
         "ext-simplexml": "*"
     },
     "autoload": {
