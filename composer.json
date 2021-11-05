@@ -1,15 +1,30 @@
 {
     "name": "konrad/project00001",
     "description": "A simple php MVC framework",
+    "keywords": ["MVC", "php"],
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Asymptota/project00001/issues",
+        "source": "https://github.com/Asymptota/project00001/tree/master",
+        "wiki": "https://github.com/Asymptota/project00001/wiki"
+    },
     "authors": [
         {
             "name": "Konrad Żuk",
-            "email": "konrad1.zuk@gmail.com"
+            "email": "konrad1.zuk@gmail.com",
+            "role": "developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {},
+    "require": {
+        "php": ">=7.4",
+        "ext-mbstring": "*"
+        "ext-iconv": "*"
+        "ext-pdo": "*"
+        "ext-json": "*"
+        "ext-curl": "*"
+        "ext-simplexml": "*"
+    },
     "autoload": {
         "psr-4": {
             "Project00001\\": "src/app/backend/src"
