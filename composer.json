@@ -1,0 +1,23 @@
+{
+    "name": "konrad/project00001",
+    "description": "A simple php MVC framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Konrad Żuk",
+            "email": "konrad1.zuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Project00001\\": "src/app/backend/src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Project00001\\Tests\\": "tests"
+        }
+    }
+}
